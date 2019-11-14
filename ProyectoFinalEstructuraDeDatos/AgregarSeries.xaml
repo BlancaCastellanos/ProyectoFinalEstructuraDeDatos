@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="ProyectoFinalEstructuraDeDatos.AgregarSeries"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ProyectoFinalEstructuraDeDatos"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        
+        <TextBlock x:Name="txtblock_dseries" HorizontalAlignment="Left" Margin="235,20,0,0" TextWrapping="Wrap" Text="SERIES" VerticalAlignment="Top" FontFamily="Verdana" FontSize="16" FontWeight="Bold" TextDecorations="Underline"/>
+        
+        
+        <TextBlock x:Name="txtblock_titulods" HorizontalAlignment="Left" Margin="23,59,0,0" TextWrapping="Wrap" Text="Titulo: " VerticalAlignment="Top" Width="74" FontSize="14" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBox x:Name="txtbox_titulods" HorizontalAlignment="Left" Height="23" Margin="142,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="381" Background="#FFE4FEFF"/>
+        <TextBlock x:Name="txtblock_añods" HorizontalAlignment="Left" Margin="23,96,0,0" TextWrapping="Wrap" Text="Año:" VerticalAlignment="Top" Width="62" FontSize="14" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBox x:Name="txtbox_añods" HorizontalAlignment="Left" Height="23" Margin="142,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Background="#FFE4FEFF"/>
+        <TextBlock x:Name="txtblock_generods" HorizontalAlignment="Left" Margin="222,96,0,0" TextWrapping="Wrap" Text="Género:" VerticalAlignment="Top" Width="79" FontSize="14" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBox x:Name="txtbox_tempods" HorizontalAlignment="Left" Height="23" Margin="142,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Background="#FFE4FEFF"/>
+        <ComboBox x:Name="cbbox_generods" HorizontalAlignment="Left" Margin="324,96,0,0" VerticalAlignment="Top" Width="199" Background="#FFE4FEFF"/>
+        <TextBlock x:Name="txtblock_tempods" HorizontalAlignment="Left" Margin="23,132,0,0" TextWrapping="Wrap" Text="Temporadas:" VerticalAlignment="Top" Width="113" FontSize="14" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBox x:Name="txtbox_productords" HorizontalAlignment="Left" Height="23" Margin="324,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" Background="#FFE4FEFF"/>
+        <TextBlock x:Name="txtblock_productords" HorizontalAlignment="Left" Margin="222,132,0,0" TextWrapping="Wrap" Text="Productor:" VerticalAlignment="Top" Width="102" FontSize="14" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBox x:Name="txtbox_descripds" HorizontalAlignment="Left" Height="58" Margin="142,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="381" Background="#FFE4FEFF"/>
+        <TextBlock x:Name="txtblock_descripds" HorizontalAlignment="Left" Margin="23,166,0,0" TextWrapping="Wrap" Text="Descripción:" VerticalAlignment="Top" Width="116" FontSize="14" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBlock x:Name="txtblock_ratingds" HorizontalAlignment="Left" Margin="23,242,0,0" TextWrapping="Wrap" Text="Rating: " VerticalAlignment="Top" Width="74" FontSize="14" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBox x:Name="txtbox_ratingds" HorizontalAlignment="Left" Height="23" Margin="142,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Background="#FFE4FEFF"/>
+        
+        
+        <Button x:Name="btnGuardards" Content="Guardar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="66" Margin="161,296,0,0" Background="#FFE4FEFF" Height="32"/>
+        <Button x:Name="btnCancelards" Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="77" Margin="300,296,0,0" Background="#FFE4FEFF" Height="32"/>
+
+    </Grid>
+</UserControl>
+
