@@ -13,21 +13,17 @@
 
         <TextBlock HorizontalAlignment="Left" Margin="28,51,0,0" TextWrapping="Wrap" Text="Tipo:" VerticalAlignment="Top" Width="42" FontSize="14" FontFamily="Verdana" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="28,97,0,0" TextWrapping="Wrap" Text="Titulo:" VerticalAlignment="Top" Width="53" FontSize="14" FontFamily="Verdana" FontWeight="Bold"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="110,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="395" Background="#FFE4FEFF"/>
+        <TextBox x:Name="txtbox_titulo" HorizontalAlignment="Left" Height="23" Margin="110,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="395" Background="#FFE4FEFF"/>
         <TextBlock HorizontalAlignment="Left" Margin="28,134,0,0" TextWrapping="Wrap" Text="Año:" VerticalAlignment="Top" Width="39" FontSize="14" FontFamily="Verdana" FontWeight="Bold"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="110,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" Background="#FFE4FEFF"/>
+        <TextBox x:Name="txtbox_año" HorizontalAlignment="Left" Height="23" Margin="110,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" Background="#FFE4FEFF"/>
         <TextBlock HorizontalAlignment="Left" Margin="213,134,0,0" TextWrapping="Wrap" Text="Género:" VerticalAlignment="Top" Width="70" FontSize="14" FontFamily="Verdana" FontWeight="Bold"/>
-        <ComboBox HorizontalAlignment="Left" Margin="282,131,0,0" VerticalAlignment="Top" Width="223" RenderTransformOrigin="0.614,0.5" Background="#FFE4FEFF"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="110,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="395" Background="#FFE4FEFF"/>
+        <ComboBox x:Name="txtbox_genero" HorizontalAlignment="Left" Margin="282,131,0,0" VerticalAlignment="Top" Width="223" RenderTransformOrigin="0.614,0.5" Background="#FFE4FEFF"/>
+        <TextBox x:Name="txtbox_director" HorizontalAlignment="Left" Height="23" Margin="110,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="395" Background="#FFE4FEFF"/>
         <TextBlock HorizontalAlignment="Left" Margin="28,168,0,0" TextWrapping="Wrap" Text="Director:" VerticalAlignment="Top" Width="101" FontSize="14" FontFamily="Verdana" FontWeight="Bold"/>
-        <TextBox HorizontalAlignment="Left" Height="53" Margin="110,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="395" Background="#FFE4FEFF"/>
+        <TextBox x:Name="txtbox_sinopsis" HorizontalAlignment="Left" Height="53" Margin="110,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="395" Background="#FFE4FEFF"/>
         <TextBlock HorizontalAlignment="Left" Margin="28,204,0,0" TextWrapping="Wrap" Text="Sinopsis:" VerticalAlignment="Top" Width="103" FontSize="14" FontFamily="Verdana" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="28,276,0,0" TextWrapping="Wrap" Text="Rating: " VerticalAlignment="Top" Width="103" FontSize="14" FontFamily="Verdana" FontWeight="Bold"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="110,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" Background="#FFE4FEFF"/>
-
-        <Button x:Name="btnHabilitar" Content="Habilitar " HorizontalAlignment="Left" VerticalAlignment="Top" Width="112" Margin="49,331,0,0" Height="34" FontSize="14" FontFamily="Verdana" FontWeight="Bold" Background="#FFE4FEFF"/>
-        <Button x:Name="btnEliminarElemento" Content="Eliminar Elemento" HorizontalAlignment="Left" VerticalAlignment="Top" Width="177" Margin="190,331,0,0" Height="34" FontSize="14" FontFamily="Verdana" FontWeight="Bold" Background="#FFE4FEFF"/>
-        <Button x:Name="btnCancelarvelementos" Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="393,331,0,0" Height="34" FontSize="14" FontFamily="Verdana" FontWeight="Bold" Background="#FFE4FEFF"/>
+        <TextBox x:Name="txtbox_rating" HorizontalAlignment="Left" Height="23" Margin="110,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" Background="#FFE4FEFF"/>
 
     </Grid>
 </UserControl>

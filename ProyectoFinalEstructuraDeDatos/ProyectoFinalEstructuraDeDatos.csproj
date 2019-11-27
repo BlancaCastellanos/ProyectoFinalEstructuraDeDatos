@@ -67,6 +67,7 @@
     <Compile Include="EditarElemento.xaml.cs">
       <DependentUpon>EditarElemento.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PS.cs" />
     <Compile Include="Series.cs" />
     <Compile Include="VerElemento.xaml.cs">
       <DependentUpon>VerElemento.xaml</DependentUpon>
@@ -130,6 +131,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="e1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="e2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="e3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="e4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="e5.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

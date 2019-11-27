@@ -10,9 +10,11 @@
         <TextBlock x:Name="txtblock_velementos" HorizontalAlignment="Left" Margin="184,19,0,0" TextWrapping="Wrap" Text="AGREGAR ELEMENTO NUEVO" VerticalAlignment="Top" FontFamily="Verdana" FontSize="16" FontWeight="Bold" TextDecorations="Underline"/>
         
         <TextBlock HorizontalAlignment="Left" Margin="28,45,0,0" TextWrapping="Wrap" Text="Tipo:" VerticalAlignment="Top" Width="69" FontSize="14" FontWeight="Bold" FontFamily="Verdana"/>
-        <RadioButton Content="Pelicula" HorizontalAlignment="Left" Margin="28,76,0,0" VerticalAlignment="Top" Width="69" FontFamily="Verdana"/>
-        <RadioButton Content="Serie" HorizontalAlignment="Left" Margin="116,76,0,0" VerticalAlignment="Top" Width="53" FontFamily="Verdana"/>
+        <RadioButton Content="Pelicula" HorizontalAlignment="Left" Margin="28,76,0,0" VerticalAlignment="Top" Width="69" FontFamily="Verdana" Checked="RadioButton1"/>
+        <RadioButton Content="Serie" HorizontalAlignment="Left" Margin="116,76,0,0" VerticalAlignment="Top" Width="53" FontFamily="Verdana" Checked="RadioButton2"/>
+
         
+
         <Grid x:Name="grdAgregarElemento" HorizontalAlignment="Left" Height="331" Margin="28,109,0,0" VerticalAlignment="Top" Width="762"/>
 
     </Grid>

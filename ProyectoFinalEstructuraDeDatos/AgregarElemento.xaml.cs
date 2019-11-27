@@ -25,5 +25,17 @@ namespace ProyectoFinalEstructuraDeDatos
             InitializeComponent();
         }
 
+        private void RadioButton1(object sender, RoutedEventArgs e)
+        {
+            grdAgregarElemento.Children.Clear();
+            grdAgregarElemento.Children.Add(new AgregarPeliculas());
+        }
+
+        private void RadioButton2(object sender, RoutedEventArgs e)
+        {
+            grdAgregarElemento.Children.Clear();
+            grdAgregarElemento.Children.Add(new AgregarSeries());
+        }
+
     }
 }

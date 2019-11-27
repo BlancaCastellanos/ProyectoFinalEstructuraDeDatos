@@ -11,7 +11,7 @@
         <TextBlock x:Name="txtblock_peliculasys" HorizontalAlignment="Left" Margin="74,21,0,0" TextWrapping="Wrap" Text="Peliculas y Series" VerticalAlignment="Top" FontFamily="Verdana" FontSize="16" FontWeight="Bold" TextDecorations="Underline"/>
 
 
-        <ListView x:Name="lst_lista" HorizontalAlignment="Left" Height="360" Margin="27,61,0,0" VerticalAlignment="Top" Width="242" SelectionChanged="lst_lista_SelectionChanged">
+        <ListView  x:Name="lstPeliculasySeries" HorizontalAlignment="Left" Height="360" Margin="27,61,0,0" VerticalAlignment="Top" Width="242" SelectionChanged="lstPeliculasySeries_SelectionChanged">
             <ListView.View>
                 <GridView>
                     <GridViewColumn DisplayMemberBinding="{Binding Titulo}" Header="Título" Width="120"></GridViewColumn>
@@ -21,15 +21,26 @@
         </ListView>
 
 
-        <Grid x:Name="grdDatos" HorizontalAlignment="Left" Height="430" VerticalAlignment="Top" Width="674" Margin="294,119,0,0"/>
+        <Grid x:Name="grdDatos" HorizontalAlignment="Left" Height="430" VerticalAlignment="Top" Width="674" Margin="294,119,0,0">
+        </Grid>
 
         <TextBlock x:Name="txtblockordenar" HorizontalAlignment="Left" Margin="60,442,0,0" TextWrapping="Wrap" Text="Ordenar:" VerticalAlignment="Top" FontFamily="Verdana" FontSize="14" FontWeight="Bold" TextDecorations="Underline" Width="104" Height="28"/>
-        
+
         <Button x:Name="btnAgregarElemento" Content="Agregar Elemento" HorizontalAlignment="Left" Margin="294,61,0,0" VerticalAlignment="Top" Width="150" Click="btnAgregarElemento_Click" Background="#FFE4FEFF" Height="33" FontSize="14" FontWeight="Bold"/>
         <Button x:Name="btnOrdAZ" Content="A - Z" HorizontalAlignment="Left" Margin="32,475,0,0" VerticalAlignment="Top" Width="117" Height="34" Background="#FFE4FEFF" FontSize="14" FontWeight="Bold"/>
         <Button x:Name="btnOrdZA" Content="Z - A" HorizontalAlignment="Left" Margin="32,514,0,0" VerticalAlignment="Top" Width="117" Height="35" Background="#FFE4FEFF" FontSize="14" FontWeight="Bold"/>
         <Button x:Name="btnAño1" Content="▲ Año" HorizontalAlignment="Left" Margin="172,475,0,0" VerticalAlignment="Top" Width="91" Height="34" Background="#FFE4FEFF" FontSize="14" FontWeight="Bold"/>
         <Button x:Name="btnAño2" Content="▼ Año" HorizontalAlignment="Left" Margin="172,514,0,0" VerticalAlignment="Top" Width="91" Height="35" Background="#FFE4FEFF" FontSize="14" FontWeight="Bold"/>
 
+
+        <Button Visibility="Hidden" x:Name="btneliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="486,489,0,0" VerticalAlignment="Top" Width="114" Click="btneliminar_Click" Height="30" FontSize="14" FontFamily="Verdana" Background="#FFE4FEFF"/>
+        <Button Visibility="Hidden" x:Name="btneditar" Content="Editar" HorizontalAlignment="Left" Margin="330,489,0,0" VerticalAlignment="Top" Width="114" Click="btneditar_Click" Height="30" FontSize="14" FontFamily="Verdana" Background="#FFE4FEFF"/>
+        <Button Visibility="Hidden" x:Name="btnactualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="644,489,0,0" VerticalAlignment="Top" Width="114" Click="btnactualizar_Click" Height="30" FontSize="14" FontFamily="Verdana" Background="#FFE4FEFF"/>
+        <Button Visibility="Hidden" x:Name="btncancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="800,489,0,0" VerticalAlignment="Top" Width="110" Click="btncancelar_Click" Height="30" FontSize="14" FontFamily="Verdana" Background="#FFE4FEFF"/>
+        <Image x:Name="e1" HorizontalAlignment="Left" Height="38" Margin="520,383,0,0" VerticalAlignment="Top" Width="177" Source="e1.png"/>
+        <Image x:Name="e2" HorizontalAlignment="Left" Height="38" Margin="520,383,0,0" VerticalAlignment="Top" Width="177" Source="e2.png"/>
+        <Image x:Name="e3" HorizontalAlignment="Left" Height="38" Margin="520,383,0,0" VerticalAlignment="Top" Width="177" Source="e3.png"/>
+        <Image x:Name="e4" HorizontalAlignment="Left" Height="38" Margin="520,383,0,0" VerticalAlignment="Top" Width="177" Source="e4.png"/>
+        <Image x:Name="e5" HorizontalAlignment="Left" Height="38" Margin="520,383,0,0" VerticalAlignment="Top" Width="177" Source="e5.png"/>
     </Grid>
 </Window>

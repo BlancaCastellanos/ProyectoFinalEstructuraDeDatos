@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ProyectoFinalEstructuraDeDatos
 {
-    class Peliculas
+    class Peliculas : Series
     {
+        public int DuracionMinutos { get; set; }
+        public string Sinopsis { get; set; }
+        public string Director { get; set; }
     }
 }
