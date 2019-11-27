@@ -24,7 +24,7 @@ namespace ProyectoFinalEstructuraDeDatos
         {
             InitializeComponent();
             txtbox_año.IsEnabled = false;
-            txtbox_genero.IsEnabled = false;
+            combobox_genero.IsEnabled = false;
             txtbox_director.IsEnabled = false;
             txtbox_rating.IsEnabled = false;
             txtbox_sinopsis.IsEnabled = false;

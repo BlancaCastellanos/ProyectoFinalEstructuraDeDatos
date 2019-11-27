@@ -23,6 +23,16 @@ namespace ProyectoFinalEstructuraDeDatos
         public EditarElemento()
         {
             InitializeComponent();
+
+            txtbox_tituloeditar.IsEnabled = false;
+            txtbox_directoreditar.IsEnabled = false;
+            txtbox_tituloeditar.IsEnabled = false;
+            combobox_generoeditar.IsEnabled = false;
+            txtbox_sinopsiseditar.IsEnabled = false;
+            txtbox_añoeditar.IsEnabled = false;
+            combobox_ratingeditar.IsEnabled = false;
+            combobox_generoeditar.IsEnabled = false;
+            combobox_ratingeditar.IsEnabled = false;
         }
     }
 }

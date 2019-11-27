@@ -13,17 +13,18 @@
 
         <TextBlock HorizontalAlignment="Left" Margin="28,49,0,0" TextWrapping="Wrap" Text="Tipo:" VerticalAlignment="Top" Width="42" FontSize="14" FontWeight="Bold" FontFamily="Verdana"/>
         <TextBlock HorizontalAlignment="Left" Margin="28,97,0,0" TextWrapping="Wrap" Text="Titulo:" VerticalAlignment="Top" Width="53" FontSize="14" FontWeight="Bold" FontFamily="Verdana"/>
-        <TextBox x:Name="txtbox_titulo" HorizontalAlignment="Left" Height="23" Margin="110,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="391" Background="#FFE4FEFF"/>
+        <TextBox x:Name="txtbox_tituloeditar" HorizontalAlignment="Left" Height="23" Margin="110,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="391" Background="#FFE4FEFF"/>
         <TextBlock HorizontalAlignment="Left" Margin="28,134,0,0" TextWrapping="Wrap" Text="Año:" VerticalAlignment="Top" Width="39" FontSize="14" FontWeight="Bold" FontFamily="Verdana"/>
-        <TextBox x:Name="txtbox_año" HorizontalAlignment="Left" Height="23" Margin="110,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" Background="#FFE4FEFF"/>
+        <TextBox x:Name="txtbox_añoeditar" HorizontalAlignment="Left" Height="23" Margin="110,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" Background="#FFE4FEFF"/>
         <TextBlock HorizontalAlignment="Left" Margin="216,134,0,0" TextWrapping="Wrap" Text="Género" VerticalAlignment="Top" Width="71" FontSize="14" FontWeight="Bold" FontFamily="Verdana"/>
-        <ComboBox x:Name="combobox_genero" HorizontalAlignment="Left" Margin="299,131,0,0" VerticalAlignment="Top" Width="202" Background="#FFE4FEFF"/>
-        <TextBox x:Name="txtbox_director" HorizontalAlignment="Left" Height="23" Margin="110,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="391" Background="#FFE4FEFF"/>
+        <ComboBox x:Name="combobox_generoeditar" HorizontalAlignment="Left" Margin="299,131,0,0" VerticalAlignment="Top" Width="202" Background="#FFE4FEFF"/>
+        <TextBox x:Name="txtbox_directoreditar" HorizontalAlignment="Left" Height="23" Margin="110,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="391" Background="#FFE4FEFF"/>
         <TextBlock HorizontalAlignment="Left" Margin="28,168,0,0" TextWrapping="Wrap" Text="Director:" VerticalAlignment="Top" Width="101" FontSize="14" FontWeight="Bold" FontFamily="Verdana"/>
-        <TextBox x:Name="txtbox_sinopsis" HorizontalAlignment="Left" Height="51" Margin="110,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="391" Background="#FFE4FEFF"/>
+        <TextBox x:Name="txtbox_sinopsiseditar" HorizontalAlignment="Left" Height="51" Margin="110,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="391" Background="#FFE4FEFF"/>
         <TextBlock HorizontalAlignment="Left" Margin="28,204,0,0" TextWrapping="Wrap" Text="Sinopsis:" VerticalAlignment="Top" Width="104" FontSize="14" FontWeight="Bold" FontFamily="Verdana"/>
         <TextBlock HorizontalAlignment="Left" Margin="28,276,0,0" TextWrapping="Wrap" Text="Rating: " VerticalAlignment="Top" Width="104" FontSize="14" FontWeight="Bold" FontFamily="Verdana"/>
-        <TextBox x:Name="txtbox_rating" HorizontalAlignment="Left" Height="23" Margin="110,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" Background="#FFE4FEFF"/>
+        <ComboBox x:Name="combobox_ratingeditar" HorizontalAlignment="Left" Height="23" Margin="110,270,0,0" VerticalAlignment="Top" Width="77" Background="#FFE4FEFF"/>
+        
 
 
     </Grid>
