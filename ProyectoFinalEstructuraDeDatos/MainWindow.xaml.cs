@@ -28,12 +28,12 @@ namespace ProyectoFinalEstructuraDeDatos
         {
             InitializeComponent();
 
-            PeliculasySeries.Add(new PS("Pelicula1", 1956, "Suspenso", "Sinopsis1", "1", "Comentario1", "Director1"));
-            PeliculasySeries.Add(new PS("Pelicula2", 2012, "Comedia", "Sinopsis2", "2", "Comentario2", "Director2"));
-            PeliculasySeries.Add(new PS("Pelicula3", 1999, "Terror", "Sinopsis3", "3", "Comentario3", "Director3"));
-            PeliculasySeries.Add(new PS("Pelicula4", 1998, "Infantil", "Sinopsis4", "4", "Comentario4", "Director4"));
-            PeliculasySeries.Add(new PS("Pelicula5", 2004, "Comedia", "Sinopsis5", "5", "Comentario5", "Director5"));
-            PeliculasySeries.Add(new PS("Pelicula6", 2014, "Terror", "Sinopsis6", "6", "Comentario6", "Director6"));
+            PeliculasySeries.Add(new PS("PeliculaA", 1956, "Suspenso", "Sinopsis1", "1", "Comentario1", "Director1"));
+            PeliculasySeries.Add(new PS("PeliculaB", 2012, "Comedia", "Sinopsis2", "2", "Comentario2", "Director2"));
+            PeliculasySeries.Add(new PS("PeliculaC", 1999, "Terror", "Sinopsis3", "3", "Comentario3", "Director3"));
+            PeliculasySeries.Add(new PS("PeliculaD", 1998, "Infantil", "Sinopsis4", "4", "Comentario4", "Director4"));
+            PeliculasySeries.Add(new PS("PeliculaE", 2004, "Comedia", "Sinopsis5", "5", "Comentario5", "Director5"));
+            PeliculasySeries.Add(new PS("PeliculaF", 2014, "Terror", "Sinopsis6", "6", "Comentario6", "Director6"));
 
             lstPeliculasySeries.ItemsSource = PeliculasySeries;
 
@@ -88,10 +88,11 @@ namespace ProyectoFinalEstructuraDeDatos
             btnactualizar.Visibility = Visibility.Hidden;
             
             //OTROS ELEMENTOS
-            labelTipo.Visibility = Visibility.Hidden;
+            labelTipo.Visibility = Visibility.Visible;
             radiodbtnSerie.Visibility = Visibility.Visible;
             radiodbtnPelicula.Visibility = Visibility.Visible;
             txtblockordenar.Visibility = Visibility.Hidden;
+            btncancelar.Visibility = Visibility.Hidden;
         }
 
 
@@ -380,6 +381,7 @@ namespace ProyectoFinalEstructuraDeDatos
               btnguardarnuevoprim.Visibility = Visibility.Visible;
               btnguardarnuevodos.Visibility = Visibility.Hidden;
                 btneditar.Visibility = Visibility.Hidden;
+            btncancelar.Visibility = Visibility.Visible;
         }
 
 
@@ -399,6 +401,7 @@ namespace ProyectoFinalEstructuraDeDatos
              btnguardarnuevodos.Visibility = Visibility.Visible;
              btnguardarnuevoprim.Visibility = Visibility.Hidden;
                 btneditar.Visibility = Visibility.Hidden;
+            btncancelar.Visibility = Visibility.Visible;
         }
 
 
@@ -565,6 +568,13 @@ namespace ProyectoFinalEstructuraDeDatos
             btnguardarnuevoprim.Visibility = Visibility.Hidden;
             btneliminar.Visibility = Visibility.Hidden;
             txtblockordenar.Visibility = Visibility.Visible;
+            radiodbtnSerie.Visibility = Visibility.Hidden;
+            radiodbtnPelicula.Visibility = Visibility.Hidden;
+            labelTipo.Visibility = Visibility.Hidden;
+            labelerror.Visibility = Visibility.Hidden;
+            btnguardarnuevodos.Visibility = Visibility.Hidden;
+
+
         }
 
 
