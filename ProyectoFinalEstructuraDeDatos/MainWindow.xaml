@@ -33,7 +33,7 @@
         <Button x:Name="btnAño2" Content="Mayor a Menor" HorizontalAlignment="Left" Margin="172,514,0,0" VerticalAlignment="Top" Width="117" Height="35" Click="btnAño2_Click" Background="#FFE4FEFF" FontSize="14" FontWeight="Bold"/>
 
 
-        <Button x:Name="btneliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="440,489,0,0" VerticalAlignment="Top" Width="114" Click="btneliminar_Click" Height="30" FontSize="14" FontFamily="Verdana" Background="#FFE4FEFF"/>
+        <Button x:Name="btneliminar" Visibility="Hidden" Content="Eliminar" HorizontalAlignment="Left" Margin="440,489,0,0" VerticalAlignment="Top" Width="114" Click="btneliminar_Click" Height="30" FontSize="14" FontFamily="Verdana" Background="#FFE4FEFF"/>
         <Button x:Name="btneditar" Content="Editar" HorizontalAlignment="Left" Margin="308,489,0,0" VerticalAlignment="Top" Width="114" Click="btneditar_Click" Height="30" FontSize="14" FontFamily="Verdana" Background="#FFE4FEFF"/>
         <Button x:Name="btnactualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="583,489,0,0" VerticalAlignment="Top" Width="114" Click="btnactualizar_Click" Height="30" FontSize="14" FontFamily="Verdana" Background="#FFE4FEFF"/>
         <Button x:Name="btnguardarnuevoprim" Content="Guardar" HorizontalAlignment="Left" Margin="706,489,0,0" VerticalAlignment="Top" Width="117" RenderTransformOrigin="-0.107,1.85" Height="31" FontSize="14" FontFamily="Verdana" Background="#FFE4FEFF" Click="btnguardarnuevoprim_Click"/>

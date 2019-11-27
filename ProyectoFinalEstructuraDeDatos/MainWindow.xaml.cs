@@ -58,6 +58,7 @@ namespace ProyectoFinalEstructuraDeDatos
             radiodbtnSerie.Visibility = Visibility.Hidden;
             labelTipo.Visibility = Visibility.Hidden;
             labelerror.Visibility = Visibility.Hidden;
+            txtblockordenar.Visibility = Visibility.Visible;
 
         }
 
@@ -265,6 +266,7 @@ namespace ProyectoFinalEstructuraDeDatos
                 btnactualizar.Visibility = Visibility.Hidden;
                 btnguardarnuevoprim.Visibility = Visibility.Hidden;
                 txtblockordenar.Visibility = Visibility.Hidden;
+                btneliminar.Visibility = Visibility.Hidden;
 
 
 
@@ -327,7 +329,9 @@ namespace ProyectoFinalEstructuraDeDatos
                 if (lstPeliculasySeries.SelectedIndex != -1)
                 {
                     PeliculasySeries.RemoveAt(lstPeliculasySeries.SelectedIndex);
-                }
+                btneliminar.Visibility = Visibility.Hidden;
+                btneliminar.Visibility = Visibility.Hidden;
+            }
             }
 
                             
@@ -474,6 +478,7 @@ namespace ProyectoFinalEstructuraDeDatos
             btncancelar.Visibility = Visibility.Visible;
             btnguardarnuevoprim.Visibility = Visibility.Hidden;
             btneditar.Visibility = Visibility.Hidden;
+            btneliminar.Visibility = Visibility.Visible;
         }
 
 
@@ -523,9 +528,9 @@ namespace ProyectoFinalEstructuraDeDatos
             btncancelar.Visibility = Visibility.Hidden;
             btneliminar.Visibility = Visibility.Hidden;
             btneditar.Visibility = Visibility.Hidden;
-            btnactualizar.Visibility = Visibility.Visible;
+            btnactualizar.Visibility = Visibility.Hidden;
             btnAgregarElemento.Visibility = Visibility.Visible;
-            txtblockordenar.Visibility = Visibility.Hidden;
+            txtblockordenar.Visibility = Visibility.Visible;
         }
 
 
@@ -556,8 +561,10 @@ namespace ProyectoFinalEstructuraDeDatos
             btncancelar.Visibility = Visibility.Hidden;
             btneliminar.Visibility = Visibility.Hidden;
             btneditar.Visibility = Visibility.Hidden;
-            btnactualizar.Visibility = Visibility.Visible;
+            btnactualizar.Visibility = Visibility.Hidden;
             btnguardarnuevoprim.Visibility = Visibility.Hidden;
+            btneliminar.Visibility = Visibility.Hidden;
+            txtblockordenar.Visibility = Visibility.Visible;
         }
 
 
